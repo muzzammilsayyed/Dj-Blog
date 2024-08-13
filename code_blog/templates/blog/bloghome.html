@@ -1,0 +1,31 @@
+{% extends "home/base.html" %}
+{% block title %}
+    Blog Home
+    {% endblock %}
+
+{% block blogactive %}  active {% endblock %}
+
+{% block body %}
+{% for post in allPosts %}
+
+<div class="container my-3">    
+    
+  <div class="flex min-w-72 flex-col gap-3">
+    <p class="text-[#111518] tracking-light text-[32px] font-bold leading-tight">{{post.title}}</p>
+    <p class="text-[#60778a] text-sm font-normal leading-normal">Author: {{post.author}}</p>
+    <p class="text-[#111518] text-base font-normal leading-normal pb-3 pt-1 px-4">
+      {{post.content | truncatechars:100}}
+  
+  </p>
+  <a href="{{post.slug}}" class="btn btn-primary">Read More</a>
+            </div>
+  </div>
+</div>
+
+         
+    {% comment %} </div> {% endcomment %}
+
+    {% endfor %}
+{% endblock %}
+
+

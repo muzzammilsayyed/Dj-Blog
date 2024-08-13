@@ -1,0 +1,105 @@
+{% extends "home/base.html" %}
+{% block title %}
+Home
+{% endblock %}
+{% block Name %}
+Home
+        {% endblock %}
+        {% block homeactive %}  active {% endblock %}
+
+{% block body %} 
+<!-- <div class="container">    
+<div class="card" style="width: 18rem;"> 
+        <div class="card-body">
+                <h5 class="card-title">Code Blog</h5>
+          <p class="card-text">Code Blog ..... Read our blogs</p>
+        </div>
+      </div>
+</div> -->
+       
+{% endblock  %}
+  
+  <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <div class="flex min-w-72 flex-col gap-3">
+                <p class="text-[#111518] tracking-light text-[32px] font-bold leading-tight">How to build a great team</p>
+                <p class="text-[#60778a] text-sm font-normal leading-normal">Author: Jane Smith</p>
+              </div>
+            </div>
+            <p class="text-[#111518] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              It's not easy to build a great team, but it's one of the most important things you can do as a leader. A great team can accomplish amazing things, while a mediocre
+              team will struggle to get anything done. Here are some tips for building a great team:
+            </p>
+            <div class="flex gap-4 bg-white px-4 py-3">
+              <div
+                class="text-[#111518] flex items-center justify-center rounded-lg bg-[#f0f2f5] shrink-0 size-12"
+                data-icon="NumberCircleOne"
+                data-size="24px"
+                data-weight="regular"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216ZM140,80v96a8,8,0,0,1-16,0V95l-11.56,7.71a8,8,0,1,1-8.88-13.32l24-16A8,8,0,0,1,140,80Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-1 flex-col justify-center">
+                <p class="text-[#111518] text-base font-medium leading-normal">1. Hire the right people</p>
+                <p class="text-[#60778a] text-sm font-normal leading-normal">Jane Smith, Feb 25, 2023</p>
+                <p class="text-[#60778a] text-sm font-normal leading-normal">
+                  The first step to building a great team is to hire the right people. Look for candidates who are not only skilled and experienced, but also have the right
+                  attitude and fit well with your company culture.
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-4 bg-white px-4 py-3">
+              <div
+                class="text-[#111518] flex items-center justify-center rounded-lg bg-[#f0f2f5] shrink-0 size-12"
+                data-icon="NumberCircleTwo"
+                data-size="24px"
+                data-weight="regular"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm25.56-92.74L120,168h32a8,8,0,0,1,0,16H104a8,8,0,0,1-6.4-12.8l43.17-57.56a16,16,0,1,0-27.86-15,8,8,0,0,1-15.09-5.34,32,32,0,1,1,55.74,29.93Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-1 flex-col justify-center">
+                <p class="text-[#111518] text-base font-medium leading-normal">2. Provide support and resources</p>
+                <p class="text-[#60778a] text-sm font-normal leading-normal">Jane Smith, Feb 25, 2023</p>
+                <p class="text-[#60778a] text-sm font-normal leading-normal">
+                  Once you've hired the right people, it's important to provide them with the support and resources they need to succeed. This includes training, mentorship, and
+                  access to the tools and information they need to do their job effectively.
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-4 bg-white px-4 py-3">
+              <div
+                class="text-[#111518] flex items-center justify-center rounded-lg bg-[#f0f2f5] shrink-0 size-12"
+                data-icon="NumberCircleThree"
+                data-size="24px"
+                data-weight="regular"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm32-64a36,36,0,0,1-61.71,25.19A8,8,0,1,1,109.71,166,20,20,0,1,0,124,132a8,8,0,0,1-6.55-12.59L136.63,92H104a8,8,0,0,1,0-16h48a8,8,0,0,1,6.55,12.59l-21,30A36.07,36.07,0,0,1,160,152Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-1 flex-col justify-center">
+                <p class="text-[#111518] text-base font-medium leading-normal">3. Foster trust, communication, and collaboration</p>
+                <p class="text-[#60778a] text-sm font-normal leading-normal">Jane Smith, Feb 25, 2023</p>
+                <p class="text-[#60778a] text-sm font-normal leading-normal">
+                  A great team is more than just a group of individuals working in the same place. It's a group of people who trust and respect each other, communicate openly and
+                  honestly, and collaborate effectively to achieve common goals.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

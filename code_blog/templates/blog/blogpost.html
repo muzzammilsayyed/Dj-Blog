@@ -1,0 +1,25 @@
+{% extends "home/base.html" %}
+{% block title %}
+    Blog Post
+    {% endblock %}
+    
+{% block blogactive %}  active {% endblock %}
+{% block body %}
+<div class="container my-3">
+<article class="blog-post">
+    <h2 class="display-5 link-body-emphasis mb-1">{{post.title}}</h2>
+    <p class="blog-post-meta">{{post.timeStamp}} by <a href="/about">{{post.author}}</a></p>
+
+    <p>This blog post shows a few different types of content </p>
+    <hr>
+    <p>{{post.content}}</p>
+    <h2>Blockquotes</h2>
+    <p>This is an example blockquote in action:</p>
+    <blockquote class="blockquote">
+      <p>Quoted text goes here.</p>
+    </blockquote>
+    
+  </article>
+</div>
+{% endblock  %}
+
