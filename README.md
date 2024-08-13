@@ -22,42 +22,6 @@ This is a Django-powered blog website that allows users to browse, search, and i
 - **Database:** SQLite (or your preferred database system)
 
 
-## Installation
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/django-blog-project.git
-   cd django-blog-project
-   ```
-
-2. **Create and activate a virtual environment:**
-   ```bash
-   python -m venv env
-   source env/bin/activate  # On Windows use `env\Scripts\activate`
-   ```
-
-3. **Install the required dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Apply migrations:**
-   ```bash
-   python manage.py migrate
-   ```
-
-5. **Create a superuser to access the Django admin panel:**
-   ```bash
-   python manage.py createsuperuser
-   ```
-
-6. **Run the development server:**
-   ```bash
-   python manage.py runserver
-   ```
-
-7. **Access the application:**
-   Open your browser and navigate to `http://127.0.0.1:8000/`.
 
 ## Usage
 
